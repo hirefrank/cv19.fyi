@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [ {
+      "source": "/casper",
+      "destination": "https://docs.google.com/document/d/1tY6RYmwpX_x42ZvSe3dZEGRnNXrr5LH9Ds5k5FuZTaA/edit",
+      "type": 302
+    } ]
+  }
+}
